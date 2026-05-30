@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://qc0b7umhddsq"]
+
+[ext_resource type="Script" uid="uid://bm24xfykl0d3q" path="res://addons/NeonRTX/Object_scripts/lightmap_scene.gd" id="1_7wiun"]
+[ext_resource type="LightmapGIData" uid="uid://bullxfux1j8hd" path="res://addons/NeonRTX/Material/LightMapGI.lmbake" id="2_8fne3"]
+
+[node name="lightmap_scene" type="Node3D" unique_id=471225817]
+script = ExtResource("1_7wiun")
+
+[node name="LightmapGI" type="LightmapGI" parent="." unique_id=1860311377]
+quality = 3
+bounces = 16
+directional = true
+bias = 0.001
+light_data = ExtResource("2_8fne3")

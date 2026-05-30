@@ -1,0 +1,6 @@
+[gd_resource type="Resource" script_class="rtx" format=3 uid="uid://b4yrekebqynse"]
+
+[ext_resource type="Script" uid="uid://b7ce24afqm7y6" path="res://addons/NeonRTX/rtx_res.gd" id="1_3ah64"]
+
+[resource]
+script = ExtResource("1_3ah64")

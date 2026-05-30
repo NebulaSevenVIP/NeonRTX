@@ -1,0 +1,26 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://7qwa5mjfsftc"]
+
+[ext_resource type="Texture2D" uid="uid://bbhqekvddmxfl" path="res://addons/NeonRTX/texture/pool.png" id="1_c0ulq"]
+[ext_resource type="Texture2D" uid="uid://16rn7il3d8r6" path="res://addons/NeonRTX/texture/bent_normal_map.png" id="2_8esja"]
+[ext_resource type="Texture2D" uid="uid://crn7mbxjuhj4w" path="res://addons/NeonRTX/texture/emmision.png" id="3_g0tal"]
+[ext_resource type="Texture2D" uid="uid://ciba2bx327f36" path="res://addons/NeonRTX/texture/pool_metallic.png" id="4_2tx03"]
+[ext_resource type="Texture2D" uid="uid://deqvl7du0wkmu" path="res://addons/NeonRTX/texture/normal_map.png" id="5_bbt8n"]
+[ext_resource type="Texture2D" uid="uid://d3bwfi0sb1sh8" path="res://addons/NeonRTX/texture/roughness.png" id="6_v0pxf"]
+
+[resource]
+albedo_texture = ExtResource("1_c0ulq")
+metallic = 1.0
+metallic_texture = ExtResource("4_2tx03")
+roughness = 0.0
+roughness_texture = ExtResource("6_v0pxf")
+emission_enabled = true
+emission_energy_multiplier = 0.14
+emission_texture = ExtResource("3_g0tal")
+normal_enabled = true
+normal_texture = ExtResource("5_bbt8n")
+bent_normal_enabled = true
+bent_normal_texture = ExtResource("2_8esja")
+uv1_scale = Vector3(0.1, 0.1, 0.185)
+uv1_offset = Vector3(1.31, 1.045, 1.145)
+uv1_triplanar = true
+uv2_triplanar = true
